@@ -1,0 +1,28 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.bg-light {
+  background-color: #743232 !important;
+}
+
+#about img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+/* Animasi hover pada card */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animasi */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom in */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan */
+}
+.text-right {
+  text-align: right;
+}
